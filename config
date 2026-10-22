@@ -9,6 +9,7 @@
   coo = !git fetch && git checkout
   dev = !git checkout dev && git pull
   merged = branch --merged
+  pod = pull origin dev
   st = status
   undelete = "!f() { git reset -- \"$1\" && git checkout -- \"$1\"; }; f"
 [diff]
